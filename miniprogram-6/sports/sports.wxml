@@ -1,0 +1,15 @@
+<view class="sports-container">
+  <image class="news-img" src="{{sportsDetails.imgUrl}}" mode="widthFix"></image>
+  <view class="content">校园运动会即将开幕，欢迎同学们踊跃报名参加。</view>
+  <view class="section-title">比赛项目</view>
+  <view class="events-list">
+    <block wx:for="{{sportsDetails.events}}" wx:key="index">
+      <view class="event-item">{{item}}</view>
+    </block>
+  </view>
+  <view class="section-title">比赛时间安排</view>
+  <view class="schedule">{{sportsDetails.schedule}}</view>
+  <view class="section-title">比赛地点</view>
+  <view class="location">{{sportsDetails.location}}</view>
+  <view class="link-area" bindtap="goToLink">点击查看详情来源</view>
+</view>

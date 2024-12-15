@@ -1,0 +1,4 @@
+<view class="detail-page">
+  <view class="item" bindtap="goToSports">校园运动会</view>
+  <view class="item" bindtap="goToLibrary">图书馆信息</view>
+</view>

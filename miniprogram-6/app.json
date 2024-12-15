@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/link-content/link-content",
+    "sports/sports",
+    "library/library"
+  ],
+  "window": {
+    "navigationBarTitleText": "校园服务",
+    "backgroundTextStyle": "light"
+  }
+}

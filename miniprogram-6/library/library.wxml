@@ -1,0 +1,9 @@
+<view class="library-container">
+  <image class="news-img" src="{{libraryDetails.imgUrl}}" mode="widthFix"></image>
+  <view class="content">因系统升级，图书馆开放时间有变动，请注意查看。</view>
+  <view class="section-title">重要通知</view>
+  <view class="library-notice">{{libraryDetails.notice}}</view>
+  <view class="section-title">开放时间</view>
+  <view class="library-schedule">{{libraryDetails.newSchedule}}</view>
+  <view class="link-area" bindtap="goToLink">点击查看详情来源</view>
+</view>

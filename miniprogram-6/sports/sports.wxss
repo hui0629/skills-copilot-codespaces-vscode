@@ -1,0 +1,56 @@
+.sports-container {
+  width: 100%;
+  padding: 20rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, 0.1);
+}
+
+.news-img {
+  width: 100%;
+  margin-bottom: 10rpx;
+  border-radius: 5rpx;
+}
+
+.content {
+  font-size: 18rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.section-title {
+  font-size: 18rpx;
+  font-weight: bold;
+  margin-top: 15rpx;
+  margin-bottom: 5rpx;
+}
+
+.events-list {
+  padding-left: 20rpx;
+}
+
+.event-item {
+  font-size: 16rpx;
+  margin-bottom: 5rpx;
+}
+
+.schedule {
+  font-size: 16rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+
+.location {
+  font-size: 16rpx;
+  color: #666;
+}
+
+.link-area {
+  margin-top: 10rpx;
+  padding: 10rpx;
+  border: 1px solid #ccc;
+  border-radius: 5rpx;
+  text-align: center;
+  color: #007aff;
+  font-size: 16rpx;
+}

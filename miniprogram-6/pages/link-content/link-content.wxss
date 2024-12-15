@@ -1,0 +1,19 @@
+.link-content-container {
+  width: 100%;
+  padding: 20rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, 0.1);
+}
+
+.detail-img {
+  width: 100%;
+  margin-bottom: 10rpx;
+  border-radius: 5rpx;
+}
+
+.content {
+  font-size: 18rpx;
+  color: #333;
+  line-height: 1.5;
+}

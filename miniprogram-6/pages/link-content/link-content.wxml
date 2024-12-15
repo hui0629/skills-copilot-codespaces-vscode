@@ -1,0 +1,4 @@
+<view class="link-content-container">
+  <image class="detail-img" src="{{detailImgUrl}}" mode="widthFix"></image>
+  <view class="content">{{linkContent}}</view>
+</view>
